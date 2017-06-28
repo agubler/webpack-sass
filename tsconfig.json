@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"declaration": false,
+		"module": "umd",
+		"outDir": "_build/",
+		"sourceMap": true,
+		"target": "es6",
+		"moduleResolution": "node"
+	},
+	"include": [
+		"./src/**/*.ts"
+	]
+}
