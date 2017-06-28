@@ -9,7 +9,7 @@ const config = {
 		rules: [
 			{
 				test: /\.scss$/,
-				loader: ExtractTextPlugin.extract({
+				use: ExtractTextPlugin.extract({
 					fallback: "style-loader",
 					use: "css-loader!sass-loader",
 				}),
