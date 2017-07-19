@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 const config = {
-	entry: [ './src/app.ts', './src/app.scss'],
+	entry: [ './src/app.ts'],
 	module: {
 		rules: [
 			{
